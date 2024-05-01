@@ -5,10 +5,10 @@ const Deck = () => {
 	return (
 		<>
 		<div className="row">
-		<Card />
-		<Card />
-		<Card />
-		<Card />
+			<div className="col"><Card /></div>
+			<div className="col"><Card /></div>
+			<div className="col"><Card /></div>
+			<div className="col"><Card /></div>
 		</div>
 		</>
 
